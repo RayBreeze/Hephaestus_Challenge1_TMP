@@ -20,12 +20,26 @@ We combined data cleaning, statistical exploration, and insightful visualization
 
 ## 👨‍💻 Team Hephaestus  
 
-- **[Team Member 1 Name]** – *Lead Analyst*  
-- **[Team Member 2 Name]** – *Visualization Specialist*  
-- **[Team Member 3 Name]** – *Report Writer*  
-- **[Team Member 4 Name]** – *Data Cleaner*  
+- **Subham Singh** – *Lead Analyst*  
+- **Sankalpa Maji** – *Visualization Specialist*  
+- **Aranya Rayed** – *Report Writer*  
+- **Samman Das** – *Data Cleaner*  
 
 ---
+# 🔍 Key Insights & Findings
+
+Our analysis of the OmniMart dataset uncovered the following highlights:
+
+- **Youthful, Medium-Income Base:** The majority of customers are 18–35, medium-income, and spend ~Rs.255 per transaction → focus marketing on youth-oriented platforms, trend-driven products, and flexible payment options like BNPL.
+
+- **Spending Behavior:** Spending is not strongly tied to age or income but correlates positively with the number of purchases, indicating frequency is a stronger driver of total revenue.
+
+- **Logistics Bottlenecks:** Order cancellations are highest for the Standard Shipping method, indicating inefficiencies in delivery systems and the need to optimize shipping logistics.
+
+- **Seasonal Demand:** The data shows a massive revenue spike in December, confirming the holiday season as our most critical sales period.
+
+- **Category Drivers:** A Small Number of Products Drive a Large Volume of Sales. This indicates a power Law Distribution.
+
 
 ## 🚀 How to Run  
 
@@ -34,3 +48,13 @@ We combined data cleaning, statistical exploration, and insightful visualization
 
 ```bash
 pip install pandas numpy matplotlib seaborn
+```
+
+# 📁 Repository Structure
+
+- **README.md** — This file  
+- **retail_data.csv** — The raw dataset used for the challenge  
+- **analysis.ipynb** — The main Jupyter Notebook with all our code and analysis  
+- **presentation.pptx** — A summary of our findings and recommendations  
+
+
